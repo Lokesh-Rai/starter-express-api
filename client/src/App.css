@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+a{
+  color:black !important;
+}
+nav{
+  background:white;
+}
+.home-aligner{
+  position: relative;
+  left:15%;
+  width:70%;
+  right:auto;
+  font-family: 'Lexend', sans-serif;
+}
+.authcard{
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 10px auto;
+  margin-top: 15%;
+  border-radius: 20px;
+}
+.home-card{
+  width: 95%;
+  border-radius: 10px;
+	min-height: 500px;
+	background:white;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	margin: 2%  auto 20px auto;
+	position: relative;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+.hac{
+  width:70%;
+  border-radius: 10px;
+  right:auto;
+  font-family: 'Lexend', sans-serif;
+	height: 500px;
+	background:white;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	margin: 5%  auto 20px auto;
+	position: relative;
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+.home{
+  width: 80%;
+  border-radius: 10px;
+	background:white;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	margin: 0%  auto 20px auto;
+	position: relative;
+  top:0%
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lexend', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f5;
+}
+
+code {
+  font-family: 'Lexend', sans-serif !important;
+}
+
+.back{
+  background-image: url("https://github.com/RaiLokesh/slight-app/blob/master/client/src/wa.jpg?raw=true");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
