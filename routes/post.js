@@ -38,7 +38,7 @@ router.post('/ask',requireLogin, (req, res)=>{
     
 })
 
-router.post('/comment',requireLogin,(req,res)=>{
+router.put('/comment',requireLogin,(req,res)=>{
     const comment = {
         text:req.body.text,
         postedBy:req.user._id

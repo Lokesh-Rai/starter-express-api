@@ -22,8 +22,9 @@ const Home = () => {
         fetch('https://slight-app.herokuapp.com/comment',{
             method:"put",
             headers:{
-                "Content-Type":"application/json",
-                "Authorization":"Bearer "+localStorage.getItem("jwt")
+                
+                "Authorization":"Bearer "+localStorage.getItem("jwt"),
+                "Content-Type":"application/json"
             },
             body:JSON.stringify({
                 postId,
