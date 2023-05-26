@@ -7,7 +7,7 @@ const Home = () => {
     const {state, dispatch} = useContext(UserContext)
     const [data, setData] = useState([])
     useEffect(()=>{
-            fetch('http://localhost:5000/home',{
+            fetch('https://odd-pink-kitten-robe.cyclic.app/home',{
                 headers:{
                     "Authorization":"Bearer "+localStorage.getItem("jwt")
                 }
@@ -19,7 +19,7 @@ const Home = () => {
     },[])
 
     const makeComment = (text, postId)=>{
-        fetch('http://localhost:5000/comment',{
+        fetch('https://odd-pink-kitten-robe.cyclic.app/comment',{
             method:"put",
             headers:{
                 "Content-Type":"application/json",

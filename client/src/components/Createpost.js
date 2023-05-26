@@ -10,7 +10,7 @@ const Createpost = () => {
     const [title, setTitle] = useState("")
     const[body, setBody] = useState("")
     const PostData = ()=>{
-        fetch("ask",{
+        fetch("https://odd-pink-kitten-robe.cyclic.app/ask",{
             method:"post",
             headers:{
               "Content-Type":"application/json",

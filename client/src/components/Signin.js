@@ -14,7 +14,7 @@ const Signin = () => {
       M.toast({html: "Invalid email",classes:"#f44336 red"})
       return
     }
-    fetch("",{
+    fetch("https://odd-pink-kitten-robe.cyclic.app/",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
