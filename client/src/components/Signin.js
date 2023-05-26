@@ -14,7 +14,7 @@ const Signin = () => {
       M.toast({html: "Invalid email",classes:"#f44336 red"})
       return
     }
-    fetch("https://slight-app.herokuapp.com/",{
+    fetch("",{
       method:"post",
       headers:{
         "Content-Type":"application/json"

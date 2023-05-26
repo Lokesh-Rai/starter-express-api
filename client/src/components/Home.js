@@ -7,7 +7,7 @@ const Home = () => {
     const {state, dispatch} = useContext(UserContext)
     const [data, setData] = useState([])
     useEffect(()=>{
-            fetch('https://slight-app.herokuapp.com/home',{
+            fetch('http://localhost:5000/home',{
                 headers:{
                     "Authorization":"Bearer "+localStorage.getItem("jwt")
                 }
@@ -19,12 +19,11 @@ const Home = () => {
     },[])
 
     const makeComment = (text, postId)=>{
-        fetch('https://slight-app.herokuapp.com/comment',{
+        fetch('http://localhost:5000/comment',{
             method:"put",
             headers:{
-                
-                "Authorization":"Bearer "+localStorage.getItem("jwt"),
-                "Content-Type":"application/json"
+                "Content-Type":"application/json",
+                "Authorization":"Bearer "+localStorage.getItem("jwt")
             },
             body:JSON.stringify({
                 postId,

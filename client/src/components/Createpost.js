@@ -10,7 +10,7 @@ const Createpost = () => {
     const [title, setTitle] = useState("")
     const[body, setBody] = useState("")
     const PostData = ()=>{
-        fetch("https://slight-app.herokuapp.com/ask",{
+        fetch("ask",{
             method:"post",
             headers:{
               "Content-Type":"application/json",
